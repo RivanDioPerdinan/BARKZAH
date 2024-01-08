@@ -1,0 +1,71 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+main{
+    background-color: white;
+    background-image: url('/assets/images/background.jpg');
+    background-position: fixed;
+    background-size: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.icon-nav{
+    position: relative;
+    color: #FFFFFF8C;
+}
+.icon-nav:hover{
+    color: white;
+}
+
+.circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    top:10px;
+    right: 190px;
+}
+
+section{
+    min-height: 80vh;
+}
+/* style footer */
+footer{
+    position: static;
+    bottom: 0;
+    background-color: #2B2A4C;
+    color:white;
+}
+
+/* sidebar */
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 97vh;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar li {
+    list-style: none;
+}
+.sidebar li:hover {
+    background-color: rgb(217, 217, 217, 0.518);
+    border-radius: 10px;
+    margin: 0;
+}
+.sidebar h5{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
